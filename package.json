@@ -47,7 +47,6 @@
     "@typescript-eslint/parser": "^2.29.0"
   },
   "release": {
-    "branch": "test-deploy-ci",
     "analyzeCommits": "simple-commit-message",
     "plugins": [
       "@semantic-release/release-notes-generator",

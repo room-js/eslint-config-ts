@@ -3,7 +3,7 @@ name: Publish Package
 on:
   push:
     branches:
-      - test-deploy-ci
+      - master
 
 jobs:
   publish:
