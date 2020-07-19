@@ -26,7 +26,7 @@ jobs:
       - name: Run linter
         run: npm run lint
       - name: Configure git
-        run: git config user.name $GIT_NAME && git config user.email $GIT_EMAIL
+        run: git config user.name $GIT_COMMITTER_NAME && git config user.email $GIT_COMMITTER_EMAIL
       - name: Build
         run: npm run build
       - name: Publish extension to Chrome Webstore
