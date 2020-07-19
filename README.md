@@ -4,7 +4,7 @@ Another ESLint config for TypeScript projects
 
 ## Installation
 
-`npx install-peerdeps -D @roomjs/eslint-config-ts`
+* `npx install-peerdeps -D @roomjs/eslint-config-ts`
 
 ## Usage
 
