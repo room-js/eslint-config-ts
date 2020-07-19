@@ -1,0 +1,33 @@
+name: Publish Package
+
+on:
+  push:
+    branches:
+      - test-deploy-ci
+
+jobs:
+  publish:
+    env:
+      NPM_TOKEN: {{ secrets.NPM_TOKEN }}
+      GIT_AUTHOR_NAME: "roomjs-bot"
+      GIT_AUTHOR_EMAIL: "bot@roomjs.com"
+      GIT_COMMITTER_NAME: "roomjs-bot"
+      GIT_COMMITTER_EMAIL: "bot@roomjs.com"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Install dependencies
+        run: npm ci
+      - name: Run linter
+        run: npm run lint
+      - name: Configure git
+        run: git config user.name $GIT_NAME && git config user.email $GIT_EMAIL
+      - name: Build
+        run: npm run build
+      - name: Publish extension to Chrome Webstore
+        run: npm run release
