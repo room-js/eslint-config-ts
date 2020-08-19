@@ -1,5 +1,7 @@
 # eslint-config-ts
 
+[![npm version](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts.svg)](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts)
+
 Another ESLint config for TypeScript projects
 
 ## Installation
@@ -8,7 +10,7 @@ Another ESLint config for TypeScript projects
 
 ## Usage
 
-Create file `.eslintrc` in the root folder of your project with the following content:
+Create `.eslintrc` file in the root folder of your project with the following content:
 
 ```json
 {
