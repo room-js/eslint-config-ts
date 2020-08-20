@@ -1,4 +1,4 @@
-# eslint-config-ts
+# @roomjs/eslint-config-ts
 
 [![npm version](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts.svg)](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts)
 
