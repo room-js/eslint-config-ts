@@ -22,6 +22,7 @@ const config = {
       ignoreUrls: true,
     }],
     'max-params': ['error', 3],
+    'semi': ['error', 'always'],
   },
 }
 
