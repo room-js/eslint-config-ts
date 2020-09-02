@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/room-js/eslint-config-ts/compare/v1.0.3...v1.0.4) (2020-09-02)
+
+
+### Bug Fixes
+
+* added rules ([61ee417](https://github.com/room-js/eslint-config-ts/commit/61ee417794f72a0aeb8beb2ae2ce1cdecda8be98))
+
 ## [1.0.3](https://github.com/room-js/eslint-config-ts/compare/v1.0.2...v1.0.3) (2020-08-26)
 
 
