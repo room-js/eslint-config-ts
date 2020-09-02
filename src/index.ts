@@ -22,8 +22,9 @@ const config = {
       ignoreUrls: true,
     }],
     'max-params': ['error', 3],
-    'semi': ['error', 'always'],
+    'semi': ['error', 'always', { 'omitLastInOneLineBlock': true }],
+    'eol-last': ['error', 'always'],
   },
-}
+};
 
 export = config;
