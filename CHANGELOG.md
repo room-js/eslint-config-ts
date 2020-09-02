@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/room-js/eslint-config-ts/compare/v1.0.2...v1.0.3) (2020-08-26)
+
+
+### Bug Fixes
+
+* added semi rule ([669366d](https://github.com/room-js/eslint-config-ts/commit/669366d384c0788fe8ff5f87cf4f328a8a4dfe13))
+
 ## [1.0.2](https://github.com/room-js/eslint-config-ts/compare/v1.0.1...v1.0.2) (2020-07-21)
 
 
