@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/room-js/eslint-config-ts/compare/v1.0.4...v1.0.5) (2021-03-14)
+
+
+### Bug Fixes
+
+* update CI tokens ([aa77dbe](https://github.com/room-js/eslint-config-ts/commit/aa77dbe3f191e398d6a78c688dfd11f2a58880de))
+* Update config ([5a32ea9](https://github.com/room-js/eslint-config-ts/commit/5a32ea9f1a9b1669f0de1327e5a9438ce7d44c23))
+* updated CI config ([a6654ea](https://github.com/room-js/eslint-config-ts/commit/a6654ea8bbd1c48cea0830e52b2e2f7e3964cd53))
+
 ## [1.0.4](https://github.com/room-js/eslint-config-ts/compare/v1.0.3...v1.0.4) (2020-09-02)
 
 
