@@ -9,11 +9,11 @@ jobs:
   publish:
     env:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      GIT_AUTHOR_NAME: ${{ secrets.GIT_NAME }}
-      GIT_AUTHOR_EMAIL: ${{ secrets.GIT_EMAIL }}
-      GIT_COMMITTER_NAME: ${{ secrets.GIT_NAME }}
-      GIT_COMMITTER_EMAIL: ${{ secrets.GIT_EMAIL }}
+      GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+      GIT_AUTHOR_NAME: ${{ secrets.BOT_GITHUB_NAME }}
+      GIT_AUTHOR_EMAIL: ${{ secrets.BOT_GITHUB_EMAIL }}
+      GIT_COMMITTER_NAME: ${{ secrets.BOT_GITHUB_NAME }}
+      GIT_COMMITTER_EMAIL: ${{ secrets.BOT_GITHUB_EMAIL }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
