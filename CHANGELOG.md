@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/room-js/eslint-config-ts/compare/v1.0.5...v1.0.6) (2021-06-14)
+
+
+### Bug Fixes
+
+* Empty commit to trigger pipeline ([#3](https://github.com/room-js/eslint-config-ts/issues/3)) ([143778b](https://github.com/room-js/eslint-config-ts/commit/143778b125c774b02ad4d4bbc3b8cb88c3333884))
+
 ## [1.0.5](https://github.com/room-js/eslint-config-ts/compare/v1.0.4...v1.0.5) (2021-03-14)
 
 
