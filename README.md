@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts.svg)](https://badge.fury.io/js/%40roomjs%2Feslint-config-ts)
 
-Another ESLint config for TypeScript projects
+Another ESLint config for TypeScript projects.
 
 ## Installation
 
