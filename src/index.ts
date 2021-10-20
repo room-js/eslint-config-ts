@@ -19,6 +19,7 @@ const config = {
   },
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
+    'indent': ['warn', 2],
     'max-len': ['error', {
       code: 100,
       ignoreRegExpLiterals: true,
