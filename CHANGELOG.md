@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/room-js/eslint-config-ts/compare/v1.0.7...v1.0.8) (2021-11-21)
+
+
+### Bug Fixes
+
+* Added indent switch case option and updated deps ([#4](https://github.com/room-js/eslint-config-ts/issues/4)) ([3de1752](https://github.com/room-js/eslint-config-ts/commit/3de1752deef547f3d33ec3fc2f1e6dba8a2d5b88))
+* update node version ([#5](https://github.com/room-js/eslint-config-ts/issues/5)) ([a3ffcf3](https://github.com/room-js/eslint-config-ts/commit/a3ffcf3b1612edca853c0ae89ebe7332a63d236c))
+
 ## [1.0.7](https://github.com/room-js/eslint-config-ts/compare/v1.0.6...v1.0.7) (2021-10-20)
 
 
