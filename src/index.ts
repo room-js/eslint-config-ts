@@ -31,8 +31,17 @@ const config = {
     'max-params': ['error', 3],
     'semi': ['error', 'always', { 'omitLastInOneLineBlock': true }],
     'eol-last': ['error', 'always'],
+    'no-unused-vars': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
   },
 };
 
