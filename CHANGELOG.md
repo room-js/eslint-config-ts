@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/room-js/eslint-config-ts/compare/v1.0.8...v1.0.9) (2023-06-20)
+
+
+### Bug Fixes
+
+* update deps and trigger release ([0e11c4d](https://github.com/room-js/eslint-config-ts/commit/0e11c4dfc0128c886ca484250ad4182fb8b19ea7))
+* update Node version ([e91bf83](https://github.com/room-js/eslint-config-ts/commit/e91bf83ff7cd15dbc4eded1c4faf2f783ba7f924))
+
 ## [1.0.8](https://github.com/room-js/eslint-config-ts/compare/v1.0.7...v1.0.8) (2021-11-21)
 
 
