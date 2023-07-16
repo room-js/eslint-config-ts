@@ -1,6 +1,6 @@
 {
   "name": "@roomjs/eslint-config-ts",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "ESLint configuration for TypeScript projects",
   "main": "lib/index.js",
   "scripts": {

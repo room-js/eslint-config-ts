@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/room-js/eslint-config-ts/compare/v1.0.10...v1.0.11) (2023-07-16)
+
+
+### Bug Fixes
+
+* updated peer deps ([e11ffc8](https://github.com/room-js/eslint-config-ts/commit/e11ffc824d607e94398911eefc587260e2fb2661))
+
 ## [1.0.10](https://github.com/room-js/eslint-config-ts/compare/v1.0.9...v1.0.10) (2023-07-16)
 
 
