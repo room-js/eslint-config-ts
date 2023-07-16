@@ -43,8 +43,8 @@
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0"
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
   },
   "release": {
     "analyzeCommits": "simple-commit-message",
