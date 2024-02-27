@@ -1,3 +1,5 @@
+# [1.1.0](https://github.com/room-js/eslint-config-ts/compare/v1.0.11...v1.1.0) (2024-02-27)
+
 ## [1.0.11](https://github.com/room-js/eslint-config-ts/compare/v1.0.10...v1.0.11) (2023-07-16)
 
 
