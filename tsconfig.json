@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "CommonJS",
+    "module": "NodeNext",
     "lib": [
       "ESNext",
       "DOM"
@@ -18,7 +18,7 @@
     "strictBindCallApply": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "baseUrl": "./src",
     "paths": {},
     "rootDirs": [],

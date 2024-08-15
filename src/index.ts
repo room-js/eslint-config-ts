@@ -1,22 +1,8 @@
-const config = {
-  parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-  ],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-  },
-  env: {
-    node: true,
-    commonjs: true,
-    browser: true,
-    es6: true,
-  },
+ import { Linter } from 'eslint';
+ import eslintjs from '@eslint/js';
+ import tseslint from 'typescript-eslint';
+
+ const config: Linter.Config = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'indent': ['warn', 2, { SwitchCase: 1 }],
@@ -45,4 +31,8 @@ const config = {
   },
 };
 
-export = config;
+export default tseslint.config(
+  eslintjs.configs.recommended,
+  ...tseslint.configs.recommended,
+  config,
+);
