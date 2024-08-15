@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "copy:package": "cpy package*.json ./lib",
-    "lint": "eslint ./src --ext .ts",
+    "lint": "eslint",
     "build": "rimraf lib && tsc && npm run copy:package",
     "release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,19 +32,19 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/node": "^20.11.20",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
+    "@types/node": "^22.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0",
     "cpy-cli": "^5.0.0",
-    "eslint": "^8.57.0",
-    "rimraf": "^5.0.5",
-    "semantic-release": "^23.0.2",
+    "eslint": "^9.9.0",
+    "rimraf": "^6.0.1",
+    "semantic-release": "^24.0.0",
     "simple-commit-message": "^4.1.3",
-    "typescript": "^5.3.3"
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0"
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0"
   },
   "release": {
     "analyzeCommits": "simple-commit-message",
