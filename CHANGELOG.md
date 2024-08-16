@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/room-js/eslint-config-ts/compare/v2.0.1...v2.0.2) (2024-08-16)
+
+
+### Bug Fixes
+
+* update configuration ([87b035b](https://github.com/room-js/eslint-config-ts/commit/87b035b9ca880d2eb675601c67cd930992001112))
+
 ## [2.0.1](https://github.com/room-js/eslint-config-ts/compare/v2.0.0...v2.0.1) (2024-08-15)
 
 
