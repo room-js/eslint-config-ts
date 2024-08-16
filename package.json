@@ -29,6 +29,7 @@
   "private": false,
   "homepage": "https://github.com/room-js/eslint-config-ts#readme",
   "devDependencies": {
+    "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.9.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
@@ -49,7 +50,8 @@
   "peerDependencies": {
     "@eslint/js": "^9.9.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^8.0.0"
+    "@typescript-eslint/parser": "^8.0.0",
+    "typescript-eslint": "^8.1.0"
   },
   "release": {
     "analyzeCommits": "simple-commit-message",

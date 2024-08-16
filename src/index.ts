@@ -6,7 +6,7 @@
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'indent': ['warn', 2, { SwitchCase: 1 }],
-    'max-len': ['error', {
+    "max-len": ['error', {
       code: 100,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
@@ -33,6 +33,6 @@
 
 export default tseslint.config(
   eslintjs.configs.recommended,
-  ...tseslint.configs.recommended,
+  tseslint.configs.eslintRecommended,
   config,
 );
